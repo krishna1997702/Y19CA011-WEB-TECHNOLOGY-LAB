@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.linearGradient {
+   height: 100px;
+   width: 300px;
+   background-image: linear-gradient(rgb(255, 0, 200), yellow);
+}
+.radialGradient {
+   height: 200px;
+   width: 200px;
+   background-image: radial-gradient(rgb(255, 0, 200),yellow);
+}
+</style>
+</head>
+<body>
+<h2>Linear Gradient </h2>
+<div class="linearGradient"></div>
+<h2>Radial Gradient</h2>
+<div class="radialGradient"></div>
+</body>
+</html>
